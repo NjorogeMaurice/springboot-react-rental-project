@@ -1,6 +1,6 @@
 # Rental Management Web App
 <p>A full Rental Management Web app</p>
-<p>React js for frontend, Node js for backend and Firebase for database</p>
+<p>React js for frontend, SpringBoot for backend and Postgresql for database</p>
 <p>Available Functionalities for the Tenant:<p>
 <ul><li>Rental application</li><li>Pay rent online</li><li>Apply for a rental termination</li><li>View available vacant rooms</li></ul>
 <p>Available Functionalities for the LandLord:<p>
