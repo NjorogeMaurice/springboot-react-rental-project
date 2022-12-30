@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loginform,.signupform{
+  max-width: 500px;
+  min-width: 300px;
+  max-height: 700px;
+  width: 30%;
+  height: 60%;
+  margin: 100px auto;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+}
+.payForm{
+  width: 100%;
+}
+.tenantDetails,.noticeBoard,.payRent,.terminate{
+  padding: 10px;
+  max-width: 500px;
+  min-width: 300px;
+  max-height: 700px;
+  width: 30%;
+  height: 100%;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  margin: 20px;
+}
+.noticeBoard{
+  overflow-y: auto;
+}
+.payRent{
+  overflow-y: auto;
+}
+.button{
+  border-radius: 25px;
+  width: 80%;
+  height: 40px;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 700;
+  background: green;
+  border: 0px;
+  cursor: pointer;
+  transition: opacity 0.25s ease-out;
+  margin-top: 30px;
+}
+
+.row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  max-width: 100%;
+  
+}
+
+.row input{
+  width: 80%;
+  box-sizing: border-box;
+	border: none;
+  font-size: 1.0rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+  box-shadow: inset 0px -3px 0px 0px rgba(187,187,187,0.2);
+  transition: box-shadow 0.2s ease-in;
+}
+
+.row input:focus{
+   box-shadow: inset 0px -3px 0px 0px rgba(34,193,195,0.7);
+   outline: none;
+}
+
+.row input::-webkit-input-placeholder{
+  opacity: 1;
+  transition: opacity 0.25s ease-out;
+}
+
+.row input:hover::-webkit-input-placeholder,
+.row input:focus::-webkit-input-placeholder{
+  opacity: 0;
+}
+
+.row label{
+  align-self: start;
+  padding-left: 4.5rem;
+  padding-bottom: 0.5rem;
+  color: rgba(187,187,187,0.9);
+}
+
+.dashDiv{
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+}
+.dashTable{
+  width: 100%;
+  
+}
+.note,.header,.error{
+  text-align: center;
+}
+.error{
+  color: red;
+  font-size: x-small;
+}
+
+.othersPage p button{
+  width: 30%;
+  border-radius: 10px;
+  height: 50px;
+  background-color: green;
+  color: white;
+  border: none;
+}
+.othersPage p{
+  text-align: center;
+}
+.tenants{
+  padding: 10px;
+  overflow-y: auto;
+  min-width: 300px;
+  max-height: 700px;
+  width: 70%;
+  height: 100%;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  margin: 10px;
+}
+.tenants span{
+  display: flex;
+}
+.tenants span p{
+  margin-right: 20px;
+  text-decoration: none;
+  cursor: pointer;}
+
+.tenants span p:hover{
+  color: blue;
+}
+.aNotice{
+  width: 30%;
+  height: 50%;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  margin: 10px;
+  overflow-y: auto;
+}
+.aNotice input{
+  width: 80%;
+  border-radius: 20px;
+  padding: 10px;
+  height: 50px;
+}
+.aNotice button{
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: darkgreen;
+  color: white;
+}
+.homepage{
+  width: 100%;
+  height: 100%;
+}
+.homebody{
+  width: 100%;
+  height: 100%;
+}
+.homeimage{
+  width: 70%;
+  margin-top: 20px;
+}
+.homeimage div{
+  display: flex;
+}
+.homeimage div img{
+  margin-left: 10px;
+}
+.homeimage div h3{
+  font-size: large;
+  text-align: center;
+  font-style: oblique;
+}
+.homeDesc{
+  border-radius: 20px;
+}
+.dialogBox{
+  width: 30%;
+  height: 40%;
+  border-radius: 25px;
+  background-color: gray;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.dialogBox button{
+  margin: 5px;
+  border-radius: 20px;
+  border: none;
+  height: 50px;
+  background-color:white;
+  color: black;
+}
